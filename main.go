@@ -12,10 +12,7 @@ import (
 	"github.com/namsral/flag"
 )
 
-var gitCommit = "unknown"
-var built = "unknown"
-
-const version = "0.4.0"
+const version = "0.5.0"
 
 func main() {
 	servers := flag.String("s", "127.0.0.1:2181", "Servers")
@@ -33,8 +30,7 @@ func main() {
 	args := flag.Args()
 
 	if *showVersion {
-		fmt.Printf("Version:\t%s\nGit commit:\t%s\nBuilt: %s\n",
-			version, gitCommit, built)
+		fmt.Printf("Version:\t%s\n", version)
 		os.Exit(0)
 	}
 
