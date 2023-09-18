@@ -9,27 +9,9 @@ A interactive Zookeeper client.
 
 ## Install
 
-### Mac (Homebrew)
-
 ```
-brew tap let-us-go/zkcli
-brew install zkcli
+go install github.com/kyzy540/zkcli@latest
 ```
-
-### go install
-
-```
-go install github.com/let-us-go/zkcli
-```
-
-### Build
-
-```
-make release-all
-```
-
-Or [download a pre-built binary](https://github.com/let-us-go/zkcli/releases) for Linux or macOS/OSX.
-
 
 ## Usage
 
@@ -47,27 +29,10 @@ ls <path>
 create <path> [<data>]
 set <path> [<data>]
 delete <path>
+deleteall <path>
 connect <host:port>
 addauth <scheme> <auth>
 close
 exit
 >>>
-```
-
-```shell
-$ # zkcli will try to read ~/.config/zkcli.conf as default configuration if the file exists
-$ zkcli -h # show help
-```
-
-
-## Develop
-
-```
-$ GO111MODULE=on go get xxx
-
-$ GO111MODULE=on go mod tidy
-$ GO111MODULE=on go mod verify
-
-$ make build
-$ make release-all
 ```
