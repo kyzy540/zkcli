@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.5.0] (2023-09-18)
+
+### Internal changes
+
+* `deleteall` delete node and all children recursively.
+
 ## [0.4.0] (2021-02-08)
 
 ### New Features
@@ -62,3 +68,4 @@ Built: 2018-05-30T13:44:21+0000
 [0.2.0]: https://github.com/let-us-go/zkcli/compare/v0.1.0...v0.2.0
 [0.3.0]: https://github.com/let-us-go/zkcli/compare/v0.2.0...v0.3.0
 [0.4.0]: https://github.com/let-us-go/zkcli/compare/v0.3.0...v0.4.0
+[0.5.0]: https://github.com/kyzy540/zkcli/tree/v0.5.0

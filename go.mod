@@ -1,4 +1,4 @@
-module github.com/let-us-go/zkcli
+module github.com/kyzy540/zkcli
 
 go 1.14
 

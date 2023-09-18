@@ -1,7 +1,6 @@
 # zkcli
 
-[![Build Status](https://github.com/let-us-go/zkcli/workflows/Go/badge.svg?branch=master)](https://travis-ci.org/let-us-go/zkcli)
-[![Go Report Card](https://goreportcard.com/badge/github.com/let-us-go/zkcli)](https://goreportcard.com/report/github.com/let-us-go/zkcli)
+Original project: https://github.com/let-us-go/zkcli
 
 A interactive Zookeeper client.
 
