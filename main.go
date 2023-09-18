@@ -12,7 +12,7 @@ import (
 	"github.com/namsral/flag"
 )
 
-const version = "0.5.0"
+const version = "0.5.1"
 
 func main() {
 	servers := flag.String("s", "127.0.0.1:2181", "Servers")
